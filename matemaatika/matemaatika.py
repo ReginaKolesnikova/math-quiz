@@ -14,7 +14,7 @@
 # >90% - Hinne 5
 # import random
 
-#import random
+import random
 import operator
 
 def generate_question(difficulty):
