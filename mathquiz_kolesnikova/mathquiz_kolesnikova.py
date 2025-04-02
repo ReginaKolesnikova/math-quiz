@@ -93,6 +93,15 @@ def math_test():
     percentage = (correct_answers / num_questions) * 100
     print(f"Percentage of correct answers is: {percentage:.2f}%")
 
+    if percentage < 60:
+        print("Grade: 2")
+    elif percentage < 75:
+        print("Grade: 3")
+    elif percentage < 90:
+        print("Grade: 4")
+    else:
+        print("Grade: 5")
+
 if __name__ == "__main__":
    math_test()
 
